@@ -22,10 +22,10 @@ Lukas Werner (k12222518)
 
 
 ## Tasks
-Frontent Test Stage - Lukas Werner
-Backend Test Stage - Elias Berger
-Deployment Stage - Dominik Birngruber
-Dockerize Frontend - Dominik Birngruber + Lukas Werner
-Dockerize Backend - Dominik Birgruber + Elias Berger
-Define Git Flow and document rules - All together
-presentation - All together
+* Frontent Test Stage - Lukas Werner
+* Backend Test Stage - Elias Berger
+* Deployment Stage - Dominik Birngruber
+* Dockerize Frontend - Dominik Birngruber + Lukas Werner
+* Dockerize Backend - Dominik Birgruber + Elias Berger
+* Define Git Flow and document rules - All together
+* Presentation - All together
