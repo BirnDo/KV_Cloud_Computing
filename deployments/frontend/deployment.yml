@@ -69,6 +69,6 @@ spec:
 apiVersion: v1
 kind: Secret
 metadata:
-  name: app-secrets
+  name: frontend-secrets
 data:
   api-endpoint: changeme
