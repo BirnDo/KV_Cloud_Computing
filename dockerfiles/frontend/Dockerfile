@@ -13,7 +13,10 @@ FROM node:20-alpine3.16
 
 WORKDIR /app
 # Copy the build files from the previous stage
-COPY --from=build /lectify . 
+COPY --chown=node:node --from=build /lectify . 
+RUN apk add curl
+RUN chown -R node:node ../app
+RUN chmod -R 700 ../app
 
 ENV HOST=0.0.0.0
 EXPOSE 4173
